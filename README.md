@@ -15,3 +15,5 @@ Leveraging LazyVim's extra packages such as
 Aditional plugins
 
 - numToStr/Comment.nvim
+
+For my own sanity, commitizen is used to keep track of the changes.
