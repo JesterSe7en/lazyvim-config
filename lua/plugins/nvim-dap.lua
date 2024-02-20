@@ -8,6 +8,8 @@ return {
   {
     "mfussenegger/nvim-dap",
     config = function()
+      local dap = require("dap")
+
       vim.fn.sign_define("DapStopped", { text = "", texthl = "DiagnosticWarn" })
       vim.fn.sign_define("DapBreakpoint", { text = "", texthl = "DiagnosticInfo" })
       vim.fn.sign_define("DapBreakpointRejected", { text = "", texthl = "DiagnosticError" })
